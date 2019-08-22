@@ -361,6 +361,25 @@ public class HyperLog {
     }
 
     /**
+     * Call this method to clear a list of stored Device Logs.
+     *
+     * @param deviceLogs The list of logs to remove
+     * @return void
+     */
+    public static void clearDeviceLogs(List<DeviceLogModel> deviceLogs) {
+        mDeviceLogList.clearDeviceLogs(deviceLogs);
+    }
+
+	/**
+	 * Call this method to clear a list of stored Device Logs.
+	 *
+	 * @param deviceLogs The list of logs to remove
+	 * @return void
+	 */
+	public static void clearAllDeviceLogs() {
+		mDeviceLogList.clearSavedDeviceLogs();
+	}
+    /**
      * Call this method to get a list of stored Device Logs.
      * Device logs will gets deleted from device after fetching.
      *
@@ -544,7 +563,7 @@ public class HyperLog {
      * <p>
      * Logs will get delete from the device once it successfully push to the server.
      * <p>
-     * If device log count is greater than {@value DeviceLogTable#DEVICE_LOG_REQUEST_QUERY_LIMIT} then
+     * If device log count is greater than {@value DeviceLogTable#} then
      * log will push to the server in batches.
      *
      * @param mContext The current context.
@@ -562,7 +581,7 @@ public class HyperLog {
      * <p>
      * Logs will get delete from the device once it successfully push to the server.
      * <p>
-     * If device log count is greater than {@value DeviceLogTable#DEVICE_LOG_REQUEST_QUERY_LIMIT} then
+     * If device log count is greater than {@value DeviceLogTable#} then
      * log will push to the server in batches.
      *
      * @param mContext The current context.
@@ -581,7 +600,7 @@ public class HyperLog {
      * <p>
      * Logs will get delete from the device once it successfully push to the server.
      * <p>
-     * If device log count is greater than {@value DeviceLogTable#DEVICE_LOG_REQUEST_QUERY_LIMIT} then
+     * If device log count is greater than {@value DeviceLogTable#} then
      * log will push to the server in batches.
      *
      * @param mContext          The current context.
@@ -602,7 +621,7 @@ public class HyperLog {
      * <p>
      * Logs will get delete from the device once it successfully push to the server.
      * <p>
-     * If device log count is greater than {@value DeviceLogTable#DEVICE_LOG_REQUEST_QUERY_LIMIT}
+     * If device log count is greater than {@value DeviceLogTable#}
      * then log will push to the server in batches.
      *
      * @param fileName          Name of the file that you want to receive on your server.
