@@ -2,4 +2,4 @@
 .gradle
 /local.properties
 /captures
-/gradle.properties
+gradle.properties
