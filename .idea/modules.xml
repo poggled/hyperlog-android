@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hyper-log-android.iml" filepath="$PROJECT_DIR$/hyper-log-android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hyperlog/hyperlog.iml" filepath="$PROJECT_DIR$/hyperlog/hyperlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoTagger-hyperlog.iml" filepath="$PROJECT_DIR$/PhotoTagger-hyperlog.iml" />
       <module fileurl="file://$PROJECT_DIR$/hyperlog-demo/hyperlog-demo.iml" filepath="$PROJECT_DIR$/hyperlog-demo/hyperlog-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyperlog/hyperlog-hyperlog.iml" filepath="$PROJECT_DIR$/hyperlog/hyperlog-hyperlog.iml" />
     </modules>
   </component>
 </project>
