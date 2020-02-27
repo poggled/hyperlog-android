@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PhotoTagger-hyperlog.iml" filepath="$PROJECT_DIR$/PhotoTagger-hyperlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoTagger-hyperlog.iml" filepath="$PROJECT_DIR$/PhotoTagger-hyperlog.iml" group="hyperlog" />
       <module fileurl="file://$PROJECT_DIR$/hyperlog-demo/hyperlog-demo.iml" filepath="$PROJECT_DIR$/hyperlog-demo/hyperlog-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hyperlog/hyperlog-hyperlog.iml" filepath="$PROJECT_DIR$/hyperlog/hyperlog-hyperlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hyperlog/hyperlog-hyperlog.iml" filepath="$PROJECT_DIR$/hyperlog/hyperlog-hyperlog.iml" group="hyperlog/hyperlog" />
+      <module fileurl="file://$PROJECT_DIR$/hyperlog-demo/hyperlog-hyperlog-demo.iml" filepath="$PROJECT_DIR$/hyperlog-demo/hyperlog-hyperlog-demo.iml" group="hyperlog/hyperlog-demo" />
     </modules>
   </component>
 </project>
